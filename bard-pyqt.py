@@ -10,7 +10,7 @@ import sys
 import os
 
 #Set các biến
-icon_path = "bard_icon.png"
+#icon_path = "bard_icon.png"
 global user, bard, apikey, listen, bard_api
 user = ""
 bard = ""
@@ -39,8 +39,8 @@ class Ui_MainWindow(object):
         #Cài đặt cửa sổ
         MainWindow.setObjectName("MainWindow")
         MainWindow.setFixedSize(400, 565)
-        icon = QIcon(icon_path)
-        app.setWindowIcon(icon)
+        #icon = QIcon(icon_path)
+        #app.setWindowIcon(icon)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         MainWindow.setCentralWidget(self.centralwidget)
